@@ -2,6 +2,14 @@
 
 FastAPI backend serving a **Proximal Policy Optimization (PPO)** agent for 10×10 grid navigation.
 
+#### Frontend Available here ⬇️
+[https://github.com/CheraHamza/PPOGridNavigation-FrontEnd](https://github.com/CheraHamza/PPOGridNavigation-FrontEnd)
+
+## features
+
+- **PPO Agent** — Actor-Critic model with goal-relative encoding, providing strong generalisation capabilities in the grid world.
+- **API Endpoints** — action selection, training, model persistence
+- **Database** — SQLAlchemy ORM for model storage (SQLite/PostgreSQL)
 
 ## Architecture
 
